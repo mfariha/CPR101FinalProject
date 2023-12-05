@@ -1,0 +1,69 @@
+1 - Fundamentals
+2 - Manipulating
+3 - Converting
+4 - Tokenizing
+0 - Exit
+Which module to run?
+2
+**** Start of Concatenating Strings Demo ***
+Type the first string (q - to quit):
+q
+**** End of Concatenating Strings Demo ***
+
+*** Start of Comparing Strings Demo ***
+Type the first string to compare (q - to quit):
+abc
+Type the second string to compare:
+abc
+'abc' string is equal to 'abc'
+Type the first string to compare (q - to quit):
+12345
+Type the second string to compare:
+678
+'12345' string is less than '678'
+Type the first string to compare (q - to quit):
+!@#
+Type the second string to compare:
+qwerty$
+'!@#' string is less than 'qwerty$'
+Type the first string to compare (q - to quit):
+q
+*** End of Comparing Strings Demo ***
+
+1 - Fundamentals
+2 - Manipulating
+3 - Converting
+4 - Tokenizing
+0 - Exit
+Which module to run?
+2
+**** Start of Concatenating Strings Demo ***
+Type the first string (q - to quit):
+q
+**** End of Concatenating Strings Demo ***
+
+*** Start of Comparing Strings Demo ***
+Type the first string to compare (q - to quit):
+jdnanailkcfal,mcfalkcmalknvsnlkdlfckfcsfsedkfakfmamakmfkmakmfkklemflksmkmsldmp
+Type the second string to compare:
+jdnanailkcfal,mcfalkcmalknvsnlkdlfckfcsfsedkfakfmamakmfkmakmfkklemflksmkmsldmp
+'jdnanailkcfal,mcfalkcmalknvsnlkdlfckfcsfsedkfakfmamakmfkmakmfkklemflksmkmsldmp' string is equal to 'jdnanailkcfal,mcfalkcmalknvsnlkdlfckfcsfsedkfakfmamakmfkmakmfkklemflksmkmsldmp'
+Type the first string to compare (q - to quit):
+jdnanailkcfal,mcfalkcmalknvsnlkdlfckfcsfsedkfakfmamakmfkmakmfkklemflksmkmsldmpp
+Type the second string to compare:
+'jdnanailkcfal,mcfalkcmalknvsnlkdlfckfcsfsedkfakfmamakmfkmakmfkklemflksmkmsldmp' string is greater than ''
+Type the first string to compare (q - to quit):
+jdnanailkcfal,mcfalkcmalknvsnlkdlfckfcsfsedkfakfmamakmfkmakmfkklemflksmkmsldmppp
+Type the second string to compare:
+'jdnanailkcfal,mcfalkcmalknvsnlkdlfckfcsfsedkfakfmamakmfkmakmfkklemflksmkmsldmp' string is less than 'p'
+Type the first string to compare (q - to quit):
+
+Type the second string to compare:
+
+' ' string is equal to ' '
+Type the first string to compare (q - to quit):
+
+Type the second string to compare:
+
+'' string is equal to ''
+Type the first string to compare (q - to quit):
