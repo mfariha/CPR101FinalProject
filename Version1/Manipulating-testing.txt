@@ -1,0 +1,85 @@
+**********************************************************************
+** Visual Studio 2022 Developer PowerShell v17.7.2
+** Copyright (c) 2022 Microsoft Corporation
+**********************************************************************
+PS C:\Users\Owner\Desktop\CPP101-NNN\Final Project\ProjectFile\CP4FinalProject> cl .\Manipulating.c .\Main.c /link /out:main.exe
+Microsoft (R) C/C++ Optimizing Compiler Version 19.37.32822 for x86
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+Manipulating.c
+Main.c
+Generating Code...
+Microsoft (R) Incremental Linker Version 14.37.32822.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:Manipulating.exe
+/out:main.exe
+Manipulating.obj
+Main.obj
+PS C:\Users\Owner\Desktop\CPP101-NNN\Final Project\ProjectFile\CP4FinalProject> .\Main.exe
+1 - Fundamentals
+2 - Manipulating
+3 - Converting
+4 - Tokenizing
+0 - Exit
+Which module to run?
+2
+**** Start of Concatenating Strings Demo ***
+Type the first string (q - to quit):
+abcde
+Type the second string:
+fghij
+Concatenated string is 'abcdefghij'
+Type the first string (q - to quit):
+56789
+Type the second string:
+1234
+Concatenated string is '567891234'
+Type the first string (q - to quit):
+!@#
+Type the second string:
+qwerty$
+Concatenated string is '!@#qwerty$'
+Type the first string (q - to quit):
+q
+**** End of Concatenating Strings Demo ***
+
+1 - Fundamentals
+2 - Manipulating
+3 - Converting
+4 - Tokenizing
+0 - Exit
+Which module to run?
+2
+**** Start of Concatenating Strings Demo ***
+Type the first string (q - to quit):
+jdnanailkcfal,mcfalkcmalknvsnlkdlfckfcsfsedkfakfmamakmfkmakmfkklemflksmkmsldmp
+Type the second string:
+w
+Concatenated string is 'jdnanailkcfal,mcfalkcmalknvsnlkdlfckfcsfsedkfakfmamakmfkmakmfkklemflksmkmsldmpw'
+Type the first string (q - to quit):
+jdnanailkcfal,mcfalkcmalknvsnlkdlfckfcsfsedkfakfmamakmfkmakmfkklemflksmkmsldmpw
+Type the second string:
+Concatenated string is 'jdnanailkcfal,mcfalkcmalknvsnlkdlfckfcsfsedkfakfmamakmfkmakmfkklemflksmkmsldmp'
+Type the first string (q - to quit):
+jdnanailkcfal,mcfalkcmalknvsnlkdlfckfcsfsedkfakfmamakmfkmakmfkklemflksmkmsldmpwe
+Type the second string:
+Concatenated string is 'jdnanailkcfal,mcfalkcmalknvsnlkdlfckfcsfsedkfakfmamakmfkmakmfkklemflksmkmsldmpe'
+Type the first string (q - to quit):
+
+Type the second string:
+
+Concatenated string is '          '
+Type the first string (q - to quit):
+q
+**** End of Concatenating Strings Demo ***
+
+1 - Fundamentals
+2 - Manipulating
+3 - Converting
+4 - Tokenizing
+0 - Exit
+Which module to run?
+0
+PS C:\Users\Owner\Desktop\CPP101-NNN\Final Project\ProjectFile\CP4FinalProject>
+PS C:\Users\Owner\Desktop\CPP101-NNN\Final Project\ProjectFile\CP4FinalProject>  
