@@ -1,0 +1,72 @@
+Owner@Farihas MINGW64 ~/Desktop/CPP101-NNN/Final Project/Manipulating_Module (master)
+$ git status
+On branch master
+Your branch is up to date with 'Version2/master'.
+
+nothing to commit, working tree clean
+
+Owner@Farihas MINGW64 ~/Desktop/CPP101-NNN/Final Project/Manipulating_Module (master)
+$ git log
+commit 2f3e31756030cf18243e47158a3cb56ccab53d81 (HEAD -> master, Version2/master)
+Author: fariha <fmahmud7@myseneca.ca>
+Date:   Mon Dec 4 22:12:37 2023 -0500
+
+    second commit
+
+commit 971fe3f10bb48cf5bd53ecee460438574aa7dacd (Version1/master)
+Author: fariha <fmahmud7@myseneca.ca>
+Date:   Mon Dec 4 19:13:21 2023 -0500
+
+    first commit
+
+Owner@Farihas MINGW64 ~/Desktop/CPP101-NNN/Final Project/Manipulating_Module (master)
+$ git log -p
+commit 2f3e31756030cf18243e47158a3cb56ccab53d81 (HEAD -> master, Version2/master)
+Author: fariha <fmahmud7@myseneca.ca>
+Date:   Mon Dec 4 22:12:37 2023 -0500
+
+    second commit
+
+diff --git a/Version2/Manipulating-test-cases.xlsx b/Version2/Manipulating-test-cases.xlsx
+new file mode 100644
+index 0000000..a7be0df
+Binary files /dev/null and b/Version2/Manipulating-test-cases.xlsx differ
+diff --git a/Version2/Manipulating.c b/Version2/Manipulating.c
+new file mode 100644
+index 0000000..56673a0
+--- /dev/null
++++ b/Version2/Manipulating.c
+@@ -0,0 +1,85 @@
++#define _CRT_SECURE_NO_WARNINGS
++#define BUFFER_SIZE 80
++#include "manipulating.h"
++
++
++void manipulating(void)
++{
++       //v1
++       //Function to concatenate two user input strings into one string (first string)
++       ///////////////////////////////////////////////////////////////////////////////////////////////////
++
++       printf("**** Start of Concatenating Strings Demo *** \n");
++       //Variables declared (function scope only) to store user string input for concatenation
++       char string1[BUFFER_SIZE];
++       char string2[BUFFER_SIZE];
++       //DO-WHILE Loop which prompts user to start entering the string but can exit loop by pressing 'q'
++       do
++       {
++               printf("Type the first string (q - to quit):\n");
++               //User input stored in variable string1; string length must be BUFFER_SIZE-1
++               fgets(string1, BUFFER_SIZE, stdin);
++               //Null terminator added to string1
++               string1[strlen(string1) - 1] = '\0';
++               /*IF - Loop to compare the first user input
++               If user does not press 'q' to quit, then proceed to accept second user input*/
++               if ((strcmp(string1, "q") != 0))
++               {
++                       printf("Type the second string:\n");
++                       //User input stored in variable string2; string length must be BUFFER_SIZE-1
++                       fgets(string2, BUFFER_SIZE, stdin);
++                       //Null terminator added to string2
++                       string2[strlen(string2) - 1] = '\0';
++                       //Concatenate string2 to string1
