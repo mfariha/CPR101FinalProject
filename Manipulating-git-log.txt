@@ -1,0 +1,708 @@
+commit dc12a9087a9a71cd698aed5727e54a58fe592e58
+Author: fariha <fmahmud7@myseneca.ca>
+Date:   Thu Dec 7 13:11:47 2023 -0500
+
+    Fourth Commit
+
+diff --git a/Version3/Manipulating.h b/Version3/Manipulating.h
+new file mode 100644
+index 0000000..4864330
+--- /dev/null
++++ b/Version3/Manipulating.h
+@@ -0,0 +1,13 @@
++//HEADER FILE safeguarding
++#ifndef _MANIPULATING_H_
++#define _MANIPULATING_H_
++
++//LIBRARY Declaration
++#include <stdio.h>
++#include <string.h>
++
++//Function prototype declaration for manipulating function
++void manipulating(void);
++
++
++#endif
+\ No newline at end of file
+diff --git a/Version3/Manipulatingv3-testing.txt b/Version3/Manipulatingv3-testing.txt
+new file mode 100644
+index 0000000..4cbe4bd
+--- /dev/null
++++ b/Version3/Manipulatingv3-testing.txt
+@@ -0,0 +1,84 @@
++1 - Fundamentals
++2 - Manipulating
++3 - Converting
++4 - Tokenizing
++0 - Exit
++Which module to run?
++2
++**** Start of Concatenating Strings Demo ***
++Type the first string (q - to quit):
++q
++**** End of Concatenating Strings Demo ***
++
++*** Start of Comparing Strings Demo ***
++Type the first string to compare (q - to quit):
++q
++*** End of Comparing Strings Demo ***
++
++*** Start of Searching Strings Demo ***
++Type the string (q - to quit):
++abcdefghijkl
++Type the substring:
++ijk
++'ijk' found at 8 position
++Type the string (q - to quit):
++123456789
++Type the substring:
++678
++'678' found at 5 position
++Type the string (q - to quit):
++!@#$%^&*()
++Type the substring:
++@#
++'@#' found at 1 position
++Type the string (q - to quit):
++q
++*** End of Searching Strings Demo ***
++1 - Fundamentals
++2 - Manipulating
++3 - Converting
++4 - Tokenizing
++0 - Exit
++Which module to run?
++2
++**** Start of Concatenating Strings Demo ***
++Type the first string to compare (q - to quit):
++q
++**** End of Concatenating Strings Demo ***
++
++*** Start of Comparing Strings Demo ***
++Type the first string to compare (q - to quit):
++q
++*** End of Comparing Strings Demo ***
++
++*** Start of Searching Strings Demo ***
++Type the string (q - to quit):
++hellothisisatest
++Type the substring:
++nope
++Not Found
++Type the string (q - to quit):
++jdnanailkcfal,mcfalkcmalknvsnlkdlfckfcsfsedkfakfmamakmfkmakmfkklemflksmkmsldmp
++Type the substring:
++,mc
++',mc' found at 13 position
++Type the string (q - to quit):
++
++Type the substring:
++
++' ' found at 0 position
++Type the string (q - to quit):
++zxc
++Type the substring:
++zxcvbnm
++Not Found
++Type the string (q - to quit):
++jdnanailkcfal,mcfalkcmalknvsnlkdlfckfcsfsedkfakfmamakmfkmakmfkklemflksmkmsldmpp
++Type the substring:
++'' found at 0 position
++Type the string (q - to quit):
++
++Type the substring:
++
++'' found at 0 position
++Type the string (q - to quit):
+
+commit 3f0ec094bfb92d215ab90c492d0ad853d878ae4e
+Author: fariha <fmahmud7@myseneca.ca>
+Date:   Thu Dec 7 12:29:04 2023 -0500
+
+    Third Commit
+
+diff --git a/Version2/Manipulating-log-v2.txt b/Version2/Manipulating-log-v2.txt
+new file mode 100644
+index 0000000..4d445cc
+--- /dev/null
++++ b/Version2/Manipulating-log-v2.txt
+@@ -0,0 +1,72 @@
++Owner@Farihas MINGW64 ~/Desktop/CPP101-NNN/Final Project/Manipulating_Module (master)
++$ git status
++On branch master
++Your branch is up to date with 'Version2/master'.
++
++nothing to commit, working tree clean
++
++Owner@Farihas MINGW64 ~/Desktop/CPP101-NNN/Final Project/Manipulating_Module (master)
++$ git log
++commit 2f3e31756030cf18243e47158a3cb56ccab53d81 (HEAD -> master, Version2/master)
++Author: fariha <fmahmud7@myseneca.ca>
++Date:   Mon Dec 4 22:12:37 2023 -0500
++
++    second commit
++
++commit 971fe3f10bb48cf5bd53ecee460438574aa7dacd (Version1/master)
++Author: fariha <fmahmud7@myseneca.ca>
++Date:   Mon Dec 4 19:13:21 2023 -0500
++
++    first commit
++
++Owner@Farihas MINGW64 ~/Desktop/CPP101-NNN/Final Project/Manipulating_Module (master)
++$ git log -p
++commit 2f3e31756030cf18243e47158a3cb56ccab53d81 (HEAD -> master, Version2/master)
++Author: fariha <fmahmud7@myseneca.ca>
++Date:   Mon Dec 4 22:12:37 2023 -0500
++
++    second commit
++
++diff --git a/Version2/Manipulating-test-cases.xlsx b/Version2/Manipulating-test-cases.xlsx
++new file mode 100644
++index 0000000..a7be0df
++Binary files /dev/null and b/Version2/Manipulating-test-cases.xlsx differ
++diff --git a/Version2/Manipulating.c b/Version2/Manipulating.c
++new file mode 100644
++index 0000000..56673a0
++--- /dev/null
+++++ b/Version2/Manipulating.c
++@@ -0,0 +1,85 @@
+++#define _CRT_SECURE_NO_WARNINGS
+++#define BUFFER_SIZE 80
+++#include "manipulating.h"
+++
+++
+++void manipulating(void)
+++{
+++       //v1
+++       //Function to concatenate two user input strings into one string (first string)
+++       ///////////////////////////////////////////////////////////////////////////////////////////////////
+++
+++       printf("**** Start of Concatenating Strings Demo *** \n");
+++       //Variables declared (function scope only) to store user string input for concatenation
+++       char string1[BUFFER_SIZE];
+++       char string2[BUFFER_SIZE];
+++       //DO-WHILE Loop which prompts user to start entering the string but can exit loop by pressing 'q'
+++       do
+++       {
+++               printf("Type the first string (q - to quit):\n");
+++               //User input stored in variable string1; string length must be BUFFER_SIZE-1
+++               fgets(string1, BUFFER_SIZE, stdin);
+++               //Null terminator added to string1
+++               string1[strlen(string1) - 1] = '\0';
+++               /*IF - Loop to compare the first user input
+++               If user does not press 'q' to quit, then proceed to accept second user input*/
+++               if ((strcmp(string1, "q") != 0))
+++               {
+++                       printf("Type the second string:\n");
+++                       //User input stored in variable string2; string length must be BUFFER_SIZE-1
+++                       fgets(string2, BUFFER_SIZE, stdin);
+++                       //Null terminator added to string2
+++                       string2[strlen(string2) - 1] = '\0';
+++                       //Concatenate string2 to string1
+diff --git a/Version3/Manipulating-test-cases.xlsx b/Version3/Manipulating-test-cases.xlsx
+new file mode 100644
+index 0000000..3160686
+Binary files /dev/null and b/Version3/Manipulating-test-cases.xlsx differ
+diff --git a/Version3/Manipulating.c b/Version3/Manipulating.c
+new file mode 100644
+index 0000000..7977459
+--- /dev/null
++++ b/Version3/Manipulating.c
+@@ -0,0 +1,129 @@
++#define _CRT_SECURE_NO_WARNINGS
++#define BUFFER_SIZE 80
++#include "manipulating.h"
++
++
++void manipulating(void)
++{
++	//v1
++	//Function to concatenate two user input strings into one string (first string)
++	///////////////////////////////////////////////////////////////////////////////////////////////////
++
++	printf("**** Start of Concatenating Strings Demo *** \n");
++	//Variables declared (function scope only) to store user string input for concatenation
++	char string1[BUFFER_SIZE];
++	char string2[BUFFER_SIZE];
++	//DO-WHILE Loop which prompts user to start entering the string but can exit loop by pressing 'q'
++	do
++	{
++		printf("Type the first string (q - to quit):\n");
++		//User input stored in variable string1; string length must be BUFFER_SIZE-1
++		fgets(string1, BUFFER_SIZE, stdin);
++		//Null terminator added to string1
++		string1[strlen(string1) - 1] = '\0';
++		/*IF - Loop to compare the first user input
++		If user does not press 'q' to quit, then proceed to accept second user input*/
++		if ((strcmp(string1, "q") != 0))
++		{
++			printf("Type the second string:\n");
++			//User input stored in variable string2; string length must be BUFFER_SIZE-1
++			fgets(string2, BUFFER_SIZE, stdin);
++			//Null terminator added to string2
++			string2[strlen(string2) - 1] = '\0';
++			//Concatenate string2 to string1
++			strcat(string1, string2);
++			printf("Concatenated string is \'%s\'\n", string1);
++		}
++	} while (strcmp(string1, "q") != 0);
++	printf("**** End of Concatenating Strings Demo *** \n\n");
++
++	//v2
++//Function to compare two user input strings and output whether they are same, smaller or greater
++///////////////////////////////////////////////////////////////////////////////////////////////////
++
++	printf("*** Start of Comparing Strings Demo ***\n");
++	//Variables declared (function scope only) to store user string input for comparison
++	char compare1[BUFFER_SIZE];
++	char compare2[BUFFER_SIZE];
++	//Variable to store result of string comparison (which returns an int)
++	int result;
++	//DO-WHILE Loop which prompts user to start entering the string but can exit loop by pressing 'q'
++	do
++	{
++		printf("Type the first string to compare (q - to quit):\n");
++		//User input stored in variable compare1; string length must be BUFFER_SIZE-1
++		fgets(compare1, BUFFER_SIZE, stdin);
++		//Null terminator added to compare1
++		compare1[strlen(compare1) - 1] = '\0';
++
++		/*IF - Loop to compare the first user input
++		If user does not press 'q' to quit, then proceed to accept second user input*/
++		if (strcmp(compare1, "q") != 0)
++		{
++			printf("Type the second string to compare:\n");
++			//User input stored in variable compare2; string length must be BUFFER_SIZE-1
++			fgets(compare2, BUFFER_SIZE, stdin);
++			//Null terminator added to compare2
++			compare2[strlen(compare2) - 1] = '\0';
++			//Using strcmp to compare two user input strings and return an integer value stored in result
++			result = strcmp(compare1, compare2);
++			//Inform user what the different values of result means about the two strings (positive, negative, zero)
++			if (result < 0)
++			{
++				printf("\'%s\' string is less than \'%s\'\n", compare1, compare2);
++			}
++			else if (result == 0)
++			{
++				printf("\'%s\' string is equal to \'%s\'\n", compare1, compare2);
++			}
++			else
++			{
++				printf("\'%s\' string is greater than \'%s\'\n", compare1, compare2);
++			}
++		}
++	} while (strcmp(compare1, "q") != 0);
++	printf("*** End of Comparing Strings Demo ***\n\n");
++
++	//v3
++//Function to compare two user input strings and output second input is found within the first string
++//////////////////////////////////////////////////////////////////////////////////////////////////////
++	printf("*** Start of Searching Strings Demo ***\n");
++	//Variables declared (function scope only) to store user string input for comparison
++	char haystack[BUFFER_SIZE];
++	char needle[BUFFER_SIZE];
++	/*Variable declared(function scope only) to return a char value indicating where in haystack 
++	was the begining of needle found*/
++	char* occurence = NULL;
++	//DO-WHILE Loop which prompts user to start entering the string but can exit loop by pressing 'q'
++	do
++	{
++		printf("Type the string (q - to quit):\n");
++		// User input stored in variable haystack; string length must be BUFFER_SIZE - 1
++		fgets(haystack, BUFFER_SIZE, stdin);
++		//Null terminator added to haystack
++		haystack[strlen(haystack) - 1] = '\0';
++		/*IF - LOOP to find if second user input can be found within first user input
++		If user does not press 'q' to quit, then proceed to accept second user input*/
++		if (strcmp(haystack, "q") != 0)
++		{
++			printf("Type the substring:\n");
++			// User input stored in variable needle; string length must be BUFFER_SIZE - 1
++			fgets(needle, BUFFER_SIZE, stdin);
++			//Null terminator added to haystack
++			needle[strlen(needle) - 1] = '\0';
++			//Finding where in first string was second string found
++			occurence = strstr(haystack, needle);
++			/*If - LOOP to inform user that second input was found in first string input.
++			Error message displayed if not found.*/ 
++			if (occurence)
++			{
++				printf("\'%s\' fount at %d position\n", needle, (int)(occurence - haystack));
++			}
++			else
++			{
++				printf("Not Found\n");
++			}	
++		}
++	} while (strcmp(haystack, "q") != 0);
++	printf("*** End of Searching Strings Demo ***\n");
++}
+\ No newline at end of file
+
+commit 2f3e31756030cf18243e47158a3cb56ccab53d81
+Author: fariha <fmahmud7@myseneca.ca>
+Date:   Mon Dec 4 22:12:37 2023 -0500
+
+    second commit
+
+diff --git a/Version2/Manipulating-test-cases.xlsx b/Version2/Manipulating-test-cases.xlsx
+new file mode 100644
+index 0000000..a7be0df
+Binary files /dev/null and b/Version2/Manipulating-test-cases.xlsx differ
+diff --git a/Version2/Manipulating.c b/Version2/Manipulating.c
+new file mode 100644
+index 0000000..56673a0
+--- /dev/null
++++ b/Version2/Manipulating.c
+@@ -0,0 +1,85 @@
++#define _CRT_SECURE_NO_WARNINGS
++#define BUFFER_SIZE 80
++#include "manipulating.h"
++
++
++void manipulating(void)
++{
++	//v1
++	//Function to concatenate two user input strings into one string (first string)
++	///////////////////////////////////////////////////////////////////////////////////////////////////
++
++	printf("**** Start of Concatenating Strings Demo *** \n");
++	//Variables declared (function scope only) to store user string input for concatenation
++	char string1[BUFFER_SIZE];
++	char string2[BUFFER_SIZE];
++	//DO-WHILE Loop which prompts user to start entering the string but can exit loop by pressing 'q'
++	do
++	{
++		printf("Type the first string (q - to quit):\n");
++		//User input stored in variable string1; string length must be BUFFER_SIZE-1
++		fgets(string1, BUFFER_SIZE, stdin);
++		//Null terminator added to string1
++		string1[strlen(string1) - 1] = '\0';
++		/*IF - Loop to compare the first user input
++		If user does not press 'q' to quit, then proceed to accept second user input*/
++		if ((strcmp(string1, "q") != 0))
++		{
++			printf("Type the second string:\n");
++			//User input stored in variable string2; string length must be BUFFER_SIZE-1
++			fgets(string2, BUFFER_SIZE, stdin);
++			//Null terminator added to string2
++			string2[strlen(string2) - 1] = '\0';
++			//Concatenate string2 to string1
++			strcat(string1, string2);
++			printf("Concatenated string is \'%s\'\n", string1);
++		}
++	} while (strcmp(string1, "q") != 0);
++	printf("**** End of Concatenating Strings Demo *** \n\n");
++	//v2
++//Function to compare two user input strings and output whether they are same, smaller or greater
++///////////////////////////////////////////////////////////////////////////////////////////////////
++
++	printf("*** Start of Comparing Strings Demo ***\n");
++	//Variables declared (function scope only) to store user string input for comparison
++	char compare1[BUFFER_SIZE];
++	char compare2[BUFFER_SIZE];
++	//Variable to store result of string comparison (which returns an int)
++	int result;
++	//DO-WHILE Loop which prompts user to start entering the string but can exit loop by pressing 'q'
++	do
++	{
++		printf("Type the first string to compare (q - to quit):\n");
++		//User input stored in variable compare1; string length must be BUFFER_SIZE-1
++		fgets(compare1, BUFFER_SIZE, stdin);
++		//Null terminator added to compare1
++		compare1[strlen(compare1) - 1] = '\0';
++
++		/*IF - Loop to compare the first user input
++		If user does not press 'q' to quit, then proceed to accept second user input*/
++		if (strcmp(compare1, "q") != 0)
++		{
++			printf("Type the second string to compare:\n");
++			//User input stored in variable compare2; string length must be BUFFER_SIZE-1
++			fgets(compare2, BUFFER_SIZE, stdin);
++			//Null terminator added to compare2
++			compare2[strlen(compare2) - 1] = '\0';
++			//Using strcmp to compare two user input strings and return an integer value stored in result
++			result = strcmp(compare1, compare2);
++			//Inform user what the different values of result means about the two strings (positive, negative, zero)
++			if (result < 0)
++			{
++				printf("\'%s\' string is less than \'%s\'\n", compare1, compare2);
++			}
++			else if (result == 0)
++			{
++				printf("\'%s\' string is equal to \'%s\'\n", compare1, compare2);
++			}
++			else
++			{
++				printf("\'%s\' string is greater than \'%s\'\n", compare1, compare2);
++			}
++		}
++	} while (strcmp(compare1, "q") != 0);
++	printf("*** End of Comparing Strings Demo ***\n\n");
++}
+\ No newline at end of file
+diff --git a/Version2/Manipulating.h b/Version2/Manipulating.h
+new file mode 100644
+index 0000000..4864330
+--- /dev/null
++++ b/Version2/Manipulating.h
+@@ -0,0 +1,13 @@
++//HEADER FILE safeguarding
++#ifndef _MANIPULATING_H_
++#define _MANIPULATING_H_
++
++//LIBRARY Declaration
++#include <stdio.h>
++#include <string.h>
++
++//Function prototype declaration for manipulating function
++void manipulating(void);
++
++
++#endif
+\ No newline at end of file
+diff --git a/Version2/Manipulatingv2-testing.txt b/Version2/Manipulatingv2-testing.txt
+new file mode 100644
+index 0000000..5c4112d
+--- /dev/null
++++ b/Version2/Manipulatingv2-testing.txt
+@@ -0,0 +1,69 @@
++1 - Fundamentals
++2 - Manipulating
++3 - Converting
++4 - Tokenizing
++0 - Exit
++Which module to run?
++2
++**** Start of Concatenating Strings Demo ***
++Type the first string (q - to quit):
++q
++**** End of Concatenating Strings Demo ***
++
++*** Start of Comparing Strings Demo ***
++Type the first string to compare (q - to quit):
++abc
++Type the second string to compare:
++abc
++'abc' string is equal to 'abc'
++Type the first string to compare (q - to quit):
++12345
++Type the second string to compare:
++678
++'12345' string is less than '678'
++Type the first string to compare (q - to quit):
++!@#
++Type the second string to compare:
++qwerty$
++'!@#' string is less than 'qwerty$'
++Type the first string to compare (q - to quit):
++q
++*** End of Comparing Strings Demo ***
++
++1 - Fundamentals
++2 - Manipulating
++3 - Converting
++4 - Tokenizing
++0 - Exit
++Which module to run?
++2
++**** Start of Concatenating Strings Demo ***
++Type the first string (q - to quit):
++q
++**** End of Concatenating Strings Demo ***
++
++*** Start of Comparing Strings Demo ***
++Type the first string to compare (q - to quit):
++jdnanailkcfal,mcfalkcmalknvsnlkdlfckfcsfsedkfakfmamakmfkmakmfkklemflksmkmsldmp
++Type the second string to compare:
++jdnanailkcfal,mcfalkcmalknvsnlkdlfckfcsfsedkfakfmamakmfkmakmfkklemflksmkmsldmp
++'jdnanailkcfal,mcfalkcmalknvsnlkdlfckfcsfsedkfakfmamakmfkmakmfkklemflksmkmsldmp' string is equal to 'jdnanailkcfal,mcfalkcmalknvsnlkdlfckfcsfsedkfakfmamakmfkmakmfkklemflksmkmsldmp'
++Type the first string to compare (q - to quit):
++jdnanailkcfal,mcfalkcmalknvsnlkdlfckfcsfsedkfakfmamakmfkmakmfkklemflksmkmsldmpp
++Type the second string to compare:
++'jdnanailkcfal,mcfalkcmalknvsnlkdlfckfcsfsedkfakfmamakmfkmakmfkklemflksmkmsldmp' string is greater than ''
++Type the first string to compare (q - to quit):
++jdnanailkcfal,mcfalkcmalknvsnlkdlfckfcsfsedkfakfmamakmfkmakmfkklemflksmkmsldmppp
++Type the second string to compare:
++'jdnanailkcfal,mcfalkcmalknvsnlkdlfckfcsfsedkfakfmamakmfkmakmfkklemflksmkmsldmp' string is less than 'p'
++Type the first string to compare (q - to quit):
++
++Type the second string to compare:
++
++' ' string is equal to ' '
++Type the first string to compare (q - to quit):
++
++Type the second string to compare:
++
++'' string is equal to ''
++Type the first string to compare (q - to quit):
+
+commit 971fe3f10bb48cf5bd53ecee460438574aa7dacd
+Author: fariha <fmahmud7@myseneca.ca>
+Date:   Mon Dec 4 19:13:21 2023 -0500
+
+    first commit
+
+diff --git a/Version1/Manipulating-test-cases.xlsx b/Version1/Manipulating-test-cases.xlsx
+new file mode 100644
+index 0000000..d2e60e5
+Binary files /dev/null and b/Version1/Manipulating-test-cases.xlsx differ
+diff --git a/Version1/Manipulating-testing.txt b/Version1/Manipulating-testing.txt
+new file mode 100644
+index 0000000..c68de12
+--- /dev/null
++++ b/Version1/Manipulating-testing.txt
+@@ -0,0 +1,85 @@
++**********************************************************************
++** Visual Studio 2022 Developer PowerShell v17.7.2
++** Copyright (c) 2022 Microsoft Corporation
++**********************************************************************
++PS C:\Users\Owner\Desktop\CPP101-NNN\Final Project\ProjectFile\CP4FinalProject> cl .\Manipulating.c .\Main.c /link /out:main.exe
++Microsoft (R) C/C++ Optimizing Compiler Version 19.37.32822 for x86
++Copyright (C) Microsoft Corporation.  All rights reserved.
++
++Manipulating.c
++Main.c
++Generating Code...
++Microsoft (R) Incremental Linker Version 14.37.32822.0
++Copyright (C) Microsoft Corporation.  All rights reserved.
++
++/out:Manipulating.exe
++/out:main.exe
++Manipulating.obj
++Main.obj
++PS C:\Users\Owner\Desktop\CPP101-NNN\Final Project\ProjectFile\CP4FinalProject> .\Main.exe
++1 - Fundamentals
++2 - Manipulating
++3 - Converting
++4 - Tokenizing
++0 - Exit
++Which module to run?
++2
++**** Start of Concatenating Strings Demo ***
++Type the first string (q - to quit):
++abcde
++Type the second string:
++fghij
++Concatenated string is 'abcdefghij'
++Type the first string (q - to quit):
++56789
++Type the second string:
++1234
++Concatenated string is '567891234'
++Type the first string (q - to quit):
++!@#
++Type the second string:
++qwerty$
++Concatenated string is '!@#qwerty$'
++Type the first string (q - to quit):
++q
++**** End of Concatenating Strings Demo ***
++
++1 - Fundamentals
++2 - Manipulating
++3 - Converting
++4 - Tokenizing
++0 - Exit
++Which module to run?
++2
++**** Start of Concatenating Strings Demo ***
++Type the first string (q - to quit):
++jdnanailkcfal,mcfalkcmalknvsnlkdlfckfcsfsedkfakfmamakmfkmakmfkklemflksmkmsldmp
++Type the second string:
++w
++Concatenated string is 'jdnanailkcfal,mcfalkcmalknvsnlkdlfckfcsfsedkfakfmamakmfkmakmfkklemflksmkmsldmpw'
++Type the first string (q - to quit):
++jdnanailkcfal,mcfalkcmalknvsnlkdlfckfcsfsedkfakfmamakmfkmakmfkklemflksmkmsldmpw
++Type the second string:
++Concatenated string is 'jdnanailkcfal,mcfalkcmalknvsnlkdlfckfcsfsedkfakfmamakmfkmakmfkklemflksmkmsldmp'
++Type the first string (q - to quit):
++jdnanailkcfal,mcfalkcmalknvsnlkdlfckfcsfsedkfakfmamakmfkmakmfkklemflksmkmsldmpwe
++Type the second string:
++Concatenated string is 'jdnanailkcfal,mcfalkcmalknvsnlkdlfckfcsfsedkfakfmamakmfkmakmfkklemflksmkmsldmpe'
++Type the first string (q - to quit):
++
++Type the second string:
++
++Concatenated string is '          '
++Type the first string (q - to quit):
++q
++**** End of Concatenating Strings Demo ***
++
++1 - Fundamentals
++2 - Manipulating
++3 - Converting
++4 - Tokenizing
++0 - Exit
++Which module to run?
++0
++PS C:\Users\Owner\Desktop\CPP101-NNN\Final Project\ProjectFile\CP4FinalProject>
++PS C:\Users\Owner\Desktop\CPP101-NNN\Final Project\ProjectFile\CP4FinalProject>  
+\ No newline at end of file
+diff --git a/Version1/Manipulating.c b/Version1/Manipulating.c
+new file mode 100644
+index 0000000..016056c
+--- /dev/null
++++ b/Version1/Manipulating.c
+@@ -0,0 +1,39 @@
++#define _CRT_SECURE_NO_WARNINGS
++#define BUFFER_SIZE 80
++#include "manipulating.h"
++
++
++void manipulating(void)
++{
++	//v1
++	//Function to concatenate two user input strings into one string (first string)
++	///////////////////////////////////////////////////////////////////////////////////////////////////
++
++	printf("**** Start of Concatenating Strings Demo *** \n");
++	//Variables declared (function scope only) to store user string input for concatenation
++	char string1[BUFFER_SIZE];
++	char string2[BUFFER_SIZE];
++	//DO-WHILE Loop which prompts user to start entering the string but can exit loop by pressing 'q'
++	do
++	{
++		printf("Type the first string (q - to quit):\n");
++		//User input stored in variable string1; string length must be BUFFER_SIZE-1
++		fgets(string1, BUFFER_SIZE, stdin);
++		//Null terminator added to string1
++		string1[strlen(string1) - 1] = '\0';
++		/*IF - Loop to compare the first user input
++		If user does not press 'q' to quit, then proceed to accept second user input*/
++		if ((strcmp(string1, "q") != 0))
++		{
++			printf("Type the second string:\n");
++			//User input stored in variable string2; string length must be BUFFER_SIZE-1
++			fgets(string2, BUFFER_SIZE, stdin);
++			//Null terminator added to string2
++			string2[strlen(string2) - 1] = '\0';
++			//Concatenate string2 to string1
++			strcat(string1, string2);
++			printf("Concatenated string is \'%s\'\n", string1);
++		}
++	} while (strcmp(string1, "q") != 0);
++	printf("**** End of Concatenating Strings Demo *** \n\n");
++}
+\ No newline at end of file
+diff --git a/Version1/Manipulating.h b/Version1/Manipulating.h
+new file mode 100644
+index 0000000..4864330
+--- /dev/null
++++ b/Version1/Manipulating.h
+@@ -0,0 +1,13 @@
++//HEADER FILE safeguarding
++#ifndef _MANIPULATING_H_
++#define _MANIPULATING_H_
++
++//LIBRARY Declaration
++#include <stdio.h>
++#include <string.h>
++
++//Function prototype declaration for manipulating function
++void manipulating(void);
++
++
++#endif
+\ No newline at end of file
