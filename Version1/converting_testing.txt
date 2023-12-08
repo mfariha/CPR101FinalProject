@@ -1,0 +1,52 @@
+1 - Fundamentals
+2 - Manipulation
+3 - Converting
+4 - Tokenizing
+0 - Exit
+Which module to run?
+3
+*** Start of Converting Strings to int Demo ***
+Type an int numeric string (q - to quit):
+1
+Converted number is 1
+Type an int numeric string (q - to quit):
+12345
+Converted number is 12345
+Type an int numeric string (q - to quit):
+qwjiegvwrnfwofowrweolkg
+Converted number is 0
+Type an int numeric string (q - to quit):
+12344567nbwkqjildiegwhwrife
+Converted number is 12344567
+Type an int numeric string (q - to quit):
+gwejiofwgowgjw08276
+Converted number is 0
+Type an int numeric string (q - to quit):
+4j4j4h4h4h4h4h4h4h4h44h4h
+Converted number is 4
+Type an int numeric string (q - to quit):
+4537384398639.84
+Converted number is 2147483647
+Type an int numeric string (q - to quit):
+12345678901234567890123456789012345678901234567890123457769861233457699549238473
+Converted number is 2147483647
+Type an int numeric string (q - to quit):
+Converted number is 3
+Type an int numeric string (q - to quit):
+346278905247852irwjohgehgrjiogethileahgerilsjhyiwure18743957239718rhjruwgiwrhwi
+Converted number is 2147483647
+Type an int numeric string (q - to quit):
+Converted number is 0
+Type an int numeric string (q - to quit):
+:
+Converted number is 0
+Type an int numeric string (q - to quit):
+:
+Converted number is 0
+1234567890987654321234567890987654321234567890987654321234567890987654321234567890987654112345678900
+Converted number is 2147483647
+Type an int numeric string (q - to quit):
+Converted number is 2147483647
+Type an int numeric string (q - to quit):
+q
+*** End of Converting Strings to int Demo ***
