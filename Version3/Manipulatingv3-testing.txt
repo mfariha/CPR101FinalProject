@@ -1,0 +1,84 @@
+1 - Fundamentals
+2 - Manipulating
+3 - Converting
+4 - Tokenizing
+0 - Exit
+Which module to run?
+2
+**** Start of Concatenating Strings Demo ***
+Type the first string (q - to quit):
+q
+**** End of Concatenating Strings Demo ***
+
+*** Start of Comparing Strings Demo ***
+Type the first string to compare (q - to quit):
+q
+*** End of Comparing Strings Demo ***
+
+*** Start of Searching Strings Demo ***
+Type the string (q - to quit):
+abcdefghijkl
+Type the substring:
+ijk
+'ijk' found at 8 position
+Type the string (q - to quit):
+123456789
+Type the substring:
+678
+'678' found at 5 position
+Type the string (q - to quit):
+!@#$%^&*()
+Type the substring:
+@#
+'@#' found at 1 position
+Type the string (q - to quit):
+q
+*** End of Searching Strings Demo ***
+1 - Fundamentals
+2 - Manipulating
+3 - Converting
+4 - Tokenizing
+0 - Exit
+Which module to run?
+2
+**** Start of Concatenating Strings Demo ***
+Type the first string to compare (q - to quit):
+q
+**** End of Concatenating Strings Demo ***
+
+*** Start of Comparing Strings Demo ***
+Type the first string to compare (q - to quit):
+q
+*** End of Comparing Strings Demo ***
+
+*** Start of Searching Strings Demo ***
+Type the string (q - to quit):
+hellothisisatest
+Type the substring:
+nope
+Not Found
+Type the string (q - to quit):
+jdnanailkcfal,mcfalkcmalknvsnlkdlfckfcsfsedkfakfmamakmfkmakmfkklemflksmkmsldmp
+Type the substring:
+,mc
+',mc' found at 13 position
+Type the string (q - to quit):
+
+Type the substring:
+
+' ' found at 0 position
+Type the string (q - to quit):
+zxc
+Type the substring:
+zxcvbnm
+Not Found
+Type the string (q - to quit):
+jdnanailkcfal,mcfalkcmalknvsnlkdlfckfcsfsedkfakfmamakmfkmakmfkklemflksmkmsldmpp
+Type the substring:
+'' found at 0 position
+Type the string (q - to quit):
+
+Type the substring:
+
+'' found at 0 position
+Type the string (q - to quit):
