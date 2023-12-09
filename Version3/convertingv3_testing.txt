@@ -1,0 +1,106 @@
+1 - Fundamentals
+2 - Manipulation
+3 - Converting
+4 - Tokenizing
+0 - Exit
+Which module to run?
+3
+*** Start of Converting Strings to int Demo ***
+Type an int numeric string (q - to quit):
+1111111111
+Converted number is 1111111111
+Type an int numeric string (q - to quit):
+111111111111111
+Converted number is 2147483647
+Type an int numeric string (q - to quit):
+sdfhjkjhgffghjkkh
+Converted number is 0
+Type an int numeric string (q - to quit):
+23456789234sdfolkvhjhguij
+Converted number is 2147483647
+Type an int numeric string (q - to quit):
+q
+*** End of Converting Strings to int Demo ***
+
+*** Start of Converting Strings to double Demo ***
+Type the double numeric string (q - to quit):
+q
+*** End of Converting Strings to double Demo ***
+
+*** Start of Converting Strings to long Demo ***
+Type the long numeric string (q - to quit):
+q
+*** End of Converting Strings to long Demo ***
+
+1 - Fundamentals
+2 - Manipulation
+3 - Converting
+4 - Tokenizing
+0 - Exit
+Which module to run?
+0
+PS C:\Users\User\Documents\CPR101_activities\Final>
+PS C:\Users\User\Documents\CPR101_activities\Final>
+PS C:\Users\User\Documents\CPR101_activities\Final>
+PS C:\Users\User\Documents\CPR101_activities\Final>
+PS C:\Users\User\Documents\CPR101_activities\Final>
+PS C:\Users\User\Documents\CPR101_activities\Final> .\main.exe
+1 - Fundamentals
+2 - Manipulation
+3 - Converting
+4 - Tokenizing
+0 - Exit
+Which module to run?
+3
+*** Start of Converting Strings to int Demo ***
+Type an int numeric string (q - to quit):
+q
+*** End of Converting Strings to int Demo ***
+
+*** Start of Converting Strings to double Demo ***
+Type the double numeric string (q - to quit):
+q
+*** End of Converting Strings to double Demo ***
+
+*** Start of Converting Strings to long Demo ***
+Type the long numeric string (q - to quit):
+1111111111
+Converted number is 1111111111
+Type the long numeric string (q - to quit):
+111111111111111
+Converted number is 2147483647
+Type the long numeric string (q - to quit):
+sdfhjkjhgffghjkkh
+Converted number is 0
+Type the long numeric string (q - to quit):
+23456789234sdfolkvhjhguij
+Converted number is 2147483647
+Type the long numeric string (q - to quit):
+dfgkjcfyuikjvghk1234890
+Converted number is 0
+Type the long numeric string (q - to quit):
+9223372036854770000
+Converted number is 2147483647
+Type the long numeric string (q - to quit):
+1234567890123901234567890
+Converted number is 2147483647
+Type the long numeric string (q - to quit):
+1234567890.1234567890
+Converted number is 1234567890
+Type the long numeric string (q - to quit):
+1.1.1.11.1.1.1.11.1.1.11.1.1.1
+Converted number is 1
+Type the long numeric string (q - to quit):
+1f1f1f1f1f1f1f1f11f1f1ff1f1f1f1f1f1
+Converted number is 1
+Type the long numeric string (q - to quit):
+q
+*** End of Converting Strings to long Demo ***
+
+1 - Fundamentals
+2 - Manipulation
+3 - Converting
+4 - Tokenizing
+0 - Exit
+Which module to run?
+0
