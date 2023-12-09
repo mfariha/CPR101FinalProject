@@ -1,0 +1,36 @@
+*** Start of Tokenizing Sentences Demo ***
+Type a few sentences separated by dot (q - to quit):
+omg the dog is great. say what. the fox hopped over the fence.
+Sentence #1 is 'omg the dog is great'
+Sentence #2 is ' say what'
+Sentence #3 is ' the fox hopped over the fence'
+Sentence #4 is ' '
+Type a few sentences separated by dot (q - to quit):
+lalal dsfsdfks. fsdjfosd.fds dsfjosdn. jisfdfmds.
+Sentence #1 is 'lalal dsfsdfks'
+Sentence #2 is ' fsdjfosd'
+Sentence #3 is 'fds dsfjosdn'
+Sentence #4 is ' jisfdfmds'
+Type a few sentences separated by dot (q - to quit):
+poop.
+Sentence #1 is 'poop'
+Type a few sentences separated by dot (q - to quit):
+.
+Type a few sentences separated by dot (q - to quit):
+kdsflsfmdslnf tetst rgnd.sd fsidfsdnfsd. efsdfdsfs.
+Sentence #1 is 'kdsflsfmdslnf tetst rgnd'
+Sentence #2 is 'sd fsidfsdnfsd'
+Sentence #3 is ' efsdfdsfs'
+Type a few sentences separated by dot (q - to quit):
+I LOVE CPR101. WOWOWOW. GREAT TIME. WOOHOOOO.
+Sentence #1 is 'I LOVE CPR101'
+Sentence #2 is ' WOWOWOW'
+Sentence #3 is ' GREAT TIME'
+Sentence #4 is ' WOOHOOOO'
+Type a few sentences separated by dot (q - to quit):
+q
+*** End of Tokenizing Sentences Demo ***
+
+
+C:\Users\chenk\OneDrive\Desktop\version2\x64\Debug\version3.exe (process 5852) exited with code 0.
+Press any key to close this window . . .
