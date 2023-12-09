@@ -1,0 +1,42 @@
+*** Start of Tokenizing Words Demo ***
+Type a few words separated by space (q - to quit) :
+test fjsdfj sfjsdkf sdfjsdlkf jfdslkf
+Word #1 is 'test'
+Word #2 is 'fjsdfj'
+Word #3 is 'sfjsdkf'
+Word #4 is 'sdfjsdlkf'
+Word #5 is 'jfdslkf'
+Type a few words separated by space (q - to quit) :
+fslkdfjsdlk
+Word #1 is 'fslkdfjsdlk'
+Type a few words separated by space (q - to quit) :
+dmfsklf sdlflsdk fdsklfs haahha
+Word #1 is 'dmfsklf'
+Word #2 is 'sdlflsdk'
+Word #3 is 'fdsklfs'
+Word #4 is 'haahha'
+Type a few words separated by space (q - to quit) :
+ldskfs l d
+Word #1 is 'ldskfs'
+Word #2 is 'l'
+Word #3 is 'd'
+Type a few words separated by space (q - to quit) :
+ejsdkfnsdk
+Word #1 is 'ejsdkfnsdk'
+Type a few words separated by space (q - to quit) :
+mflsdkfmsd dsfndsnfks dsfldfmsd fslme tnewknfdks skdfsldnf sdfnsdklnfs sdfnlsdknf
+Word #1 is 'mflsdkfmsd'
+Word #2 is 'dsfndsnfks'
+Word #3 is 'dsfldfmsd'
+Word #4 is 'fslme'
+Word #5 is 'tnewknfdks'
+Word #6 is 'skdfsldnf'
+Word #7 is 'sdfnsdklnfs'
+Word #8 is 'sdfnlsdknf'
+Type a few words separated by space (q - to quit) :
+q
+*** End of Tokenizing Words Demo ***
+
+
+C:\Users\chenk\OneDrive\Desktop\Project1\x64\Debug\Project1.exe (process 15320) exited with code 0.
+Press any key to close this window . . .
