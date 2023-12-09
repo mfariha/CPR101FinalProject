@@ -6,6 +6,10 @@
 
 // Include the header file that presumably contains function prototypes
 #include "tokenizing.h"
+    int main() {
+        tokenizing();
+        return 0;
+    }
 
 // Function to tokenize sentences
 void tokenizing(void) {
@@ -19,10 +23,6 @@ void tokenizing(void) {
     // Counter for the sentences
     int sentencesCounter;
 
-    int main() {
-        tokenizing();
-        return 0;
-    }
     // Main loop for tokenizing sentences
     do {
         // Prompt the user to type sentences (q to quit)
