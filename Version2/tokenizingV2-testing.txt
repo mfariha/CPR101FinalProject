@@ -1,0 +1,31 @@
+*** Start of Tokenizing Phrases Demo ***
+Type a few phrases separated by comma (q - to quit):
+fosfmd, dsfkdsof, dofsjosdjf, dosfjodsjdf, kdkdk
+Phrase #1 is 'fosfmd'
+Phrase #2 is ' dsfkdsof'
+Phrase #3 is ' dofsjosdjf'
+Phrase #4 is ' dosfjodsjdf'
+Phrase #5 is ' kdkdk'
+Type a few phrases separated by comma (q - to quit):
+today, is to sodnsa sdofsnf, sfdosfnsodj omg, sojfdis
+Phrase #1 is 'today'
+Phrase #2 is ' is to sodnsa sdofsnf'
+Phrase #3 is ' sfdosfnsodj omg'
+Phrase #4 is ' sojfdis'
+Type a few phrases separated by comma (q - to quit):
+ffjdsjdjf
+Phrase #1 is 'ffjdsjdjf'
+Type a few phrases separated by comma (q - to quit):
+lalala, nananan hehehehooohsdnisnfs, eofinds words , last thing i would say is
+Phrase #1 is 'lalala'
+Phrase #2 is ' nananan hehehehooohsdnisnfs'
+Phrase #3 is ' eofinds words '
+Phrase #4 is ' last thing i would say is '
+Type a few phrases separated by comma (q - to quit):
+q
+*** End of Tokenizing Phrases Demo ***
+
+
+C:\Users\chenk\OneDrive\Desktop\version2\x64\Debug\version2.exe (process 20692) exited with code 0.
+To automatically close the console when debugging stops, enable Tools->Options->Debugging->Automatically close the console when debugging stops.
+Press any key to close this window . . .
