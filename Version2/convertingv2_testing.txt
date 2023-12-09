@@ -1,0 +1,108 @@
+1 - Fundamentals
+2 - Manipulation
+3 - Converting
+4 - Tokenizing
+0 - Exit
+Which module to run?
+3
+*** Start of Converting Strings to int Demo ***
+Type an int numeric string (q - to quit):
+q
+*** End of Converting Strings to int Demo ***
+
+*** Start of Converting Strings to double Demo ***
+Type the double numeric string (q - to quit):
+1
+Converted number is 1.000000
+Type the double numeric string (q - to quit):
+1.1
+Converted number is 1.100000
+Type the double numeric string (q - to quit):
+1111111111.11111
+Converted number is 1111111111.111110
+Type the double numeric string (q - to quit):
+1234567vrgjith
+Converted number is 1234567.000000
+Type the double numeric string (q - to quit):
+1111111111.11111
+Converted number is 1111111111.111110
+Type the double numeric string (q - to quit):
+1234567vrgjith
+Converted number is 1234567.000000
+Type the double numeric string (q - to quit):
+dtyuiokjnbgujbftyhgvf
+Converted number is 0.000000
+Type the double numeric string (q - to quit):
+huijskjssb12345678953
+Converted number is 0.000000
+Type the double numeric string (q - to quit):
+1.1.1.1.1.1.1.1.1.1.1
+Converted number is 1.100000
+Type the double numeric string (q - to quit):
+1j1j1j1j1j1j1j11jj11j1j1j
+Converted number is 1.000000
+Type the double numeric string (q - to quit):
+12356789098765432123456789098765432
+Converted number is 12356789098765432193262960974495744.000000
+Type the double numeric string (q - to quit):
+1.24509654323456998765432134567898765432123456789098765432123456789076543212345
+Converted number is 1.245097
+Type the double numeric string (q - to quit):
+Converted number is 0.000000
+Type the double numeric string (q - to quit):
+q
+=======
+1 - Fundamentals
+2 - Manipulation
+3 - Converting
+4 - Tokenizing
+0 - Exit
+Which module to run?
+3
+*** Start of Converting Strings to int Demo ***
+Type an int numeric string (q - to quit):
+q
+*** End of Converting Strings to int Demo ***
+
+*** Start of Converting Strings to double Demo ***
+Type the double numeric string (q - to quit):
+1
+Converted number is 1.000000
+Type the double numeric string (q - to quit):
+1.1
+Converted number is 1.100000
+Type the double numeric string (q - to quit):
+1111111111.11111
+Converted number is 1111111111.111110
+Type the double numeric string (q - to quit):
+1234567vrgjith
+Converted number is 1234567.000000
+Type the double numeric string (q - to quit):
+1111111111.11111
+Converted number is 1111111111.111110
+Type the double numeric string (q - to quit):
+1234567vrgjith
+Converted number is 1234567.000000
+Type the double numeric string (q - to quit):
+dtyuiokjnbgujbftyhgvf
+Converted number is 0.000000
+Type the double numeric string (q - to quit):
+huijskjssb12345678953
+Converted number is 0.000000
+Type the double numeric string (q - to quit):
+1.1.1.1.1.1.1.1.1.1.1
+Converted number is 1.100000
+Type the double numeric string (q - to quit):
+1j1j1j1j1j1j1j11jj11j1j1j
+Converted number is 1.000000
+Type the double numeric string (q - to quit):
+12356789098765432123456789098765432
+Converted number is 12356789098765432193262960974495744.000000
+Type the double numeric string (q - to quit):
+1.24509654323456998765432134567898765432123456789098765432123456789076543212345
+Converted number is 1.245097
+Type the double numeric string (q - to quit):
+Converted number is 0.000000
+Type the double numeric string (q - to quit):
+q
+*** End of Converting Strings to double Demo ***
